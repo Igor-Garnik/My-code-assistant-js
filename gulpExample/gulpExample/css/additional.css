@@ -1,0 +1,27 @@
+html {
+	width: 121px;
+	height: 170px;
+}
+
+body {
+	background: url('../img/html.png') center no-repeat;
+}
+
+span {
+	color: #333;
+	margin: 0; 
+}
+  
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+
+nav ul li {
+	display: inline-block; 
+}
+
+nav ul li:hover {
+	color: red; 
+}

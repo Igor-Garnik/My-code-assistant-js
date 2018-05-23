@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Express File-Upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <style>
+        body {
+            background-color: #eaeaea;
+            height: 660px;
+        }
+        .container {
+            margin: 8px auto;
+        }
+
+        .file-form {
+            margin-bottom: 42px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    express-fileupload
+                </h1>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="notification">
+            <p class="title is-6" id="file-container">
+              Выберите файл для загрузки на сервер
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="notification">
+            <form class="field is-grouped is-centered file-form" name="upload" id="my-form">
+                <div class="file is-expanded">
+                    <label class="file-label">
+
+                        <input class="file-input" type="file" name="myfile" id="my-file">
+
+                        <span class="file-cta">
+                        <span class="file-icon">
+                          <i class="fas fa-upload"></i>
+                        </span>
+                        <span class="file-label">
+                          Choose a file…
+                        </span>
+                        </span>
+                    </label>
+                </div>
+                <div class="control">
+
+                  <input class="button is-primary" type="submit" value="Загрузить" id="sbm-btn">
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</body>
+</html>

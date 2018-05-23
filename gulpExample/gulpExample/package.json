@@ -1,0 +1,29 @@
+{
+  "name": "test-1",
+  "version": "1.0.0",
+  "description": "Some long text",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch",
+    "gulp-scripts": "gulp scripts",
+    "gulp-css": "gulp css",
+    "gulp-clean": "gulp clean"
+  },
+  "keywords": [
+    "axax"
+  ],
+  "author": "Eugene",
+  "license": "MIT"
+}
